@@ -1,0 +1,28 @@
+# Example test run 1
+testScoreString = "87"
+classRankString = "60"
+
+# Convert string input to integers
+testScore = int(testScoreString)
+classRank = int(classRankString)
+
+# Decision structure based on pseudocode
+if testScore >= 90:
+    if classRank >= 25:
+        print("Accept")
+    else:
+        print("Reject")
+else:
+    if testScore >= 80:
+        if classRank >= 50:
+            print("Accept")
+        else:
+            print("Reject")
+    else:
+        if testScore >= 70:
+            if classRank >= 75:
+                print("Accept")
+            else:
+                print("Reject")
+        else:
+            print("Reject")
